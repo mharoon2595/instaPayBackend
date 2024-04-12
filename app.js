@@ -34,7 +34,7 @@ mongoose
   )
   .then(() => {
     console.log("Connected to server!");
-    app.listen(8000);
+    app.listen(3000);
   })
   .catch((err) => {
     console.log(err);
